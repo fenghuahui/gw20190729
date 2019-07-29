@@ -1,1 +1,52 @@
 
+    
+<seachInput></seachInput>
+<!-- 轮播图 -->
+<view class="swiperList">
+  <swiper autoplay circular indicator-dots>
+    <swiper-item
+    wx:for="{{swiperList}}"
+    wx:for-item="item"
+    wx:key="goods_id"
+    >
+      <image src="{{item.image_src}}" mode="widthFix"/>
+    </swiper-item>   
+  </swiper>
+</view>
+<!-- 轮播图结束 -->
+<!-- 分类目录开始 -->
+<view class="catitems">
+  <navigator 
+  wx:for="{{catitemsList}}"
+  wx:key="name"
+  >
+    <image src="{{item.image_src}}" mode="widthFix" />  
+  </navigator>   
+</view>
+<!-- 分类目录结束 -->
+<!-- 楼层开始 -->
+<!-- 第一层循环标题 -->
+<view class="floordata clearfix"
+wx:for="{{floordataList}}"
+wx:for-item="item1"
+wx:for-index="index1"
+wx:key="name"
+>
+  <view class="floorTitle">
+    <image src="{{item1.floor_title.image_src}}" mode="widthFix"/>      
+  </view>
+  <!-- 第二层循环内容 -->
+  <view class="floorList"
+  wx:for="{{item1.product_list}}"
+  wx:for-item="item2"
+  wx:for-index="index2"
+  wx:key="name"
+  >
+    <navigator>
+      <image src="{{item2.image_src}}" mode="widthFix"/>      
+    </navigator>       
+  </view>   
+</view>
+<!-- 楼层结束 -->
+
+  

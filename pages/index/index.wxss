@@ -1,1 +1,25 @@
-/* pages/index/index.wxss */
+.clearfix {
+  overflow: auto;
+  _height: 1%;
+}
+/* 轮播图样式 */
+.swiperList swiper {
+  /* 原图750*340
+    750/340 = 750/?
+    */
+  height: 340rpx ;
+}
+.catitems {
+  display: flex;
+}
+.catitems navigator {
+  flex: 1;
+  padding: 20rpx;
+}
+.floordata {
+  border: 10rpx solid #fff;
+}
+.floordata .floorList {
+  width: 33.33%;
+  float: left;
+}

@@ -1,0 +1,16 @@
+.seachInput{
+  background-color: var(--themeColor);
+  color:var(--themeColor);
+  /* 45px */
+  box-sizing: border-box;
+  height: 90prx;
+  padding: 15rpx 10rpx;
+  text-align: center;
+  justify-content: center;
+  font-size: 28rpx;
+  }
+  .seachInput .seach{
+  background-color:#fff;
+  height: 100%;
+  border-radius: 10rpx;
+  }

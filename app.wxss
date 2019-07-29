@@ -1,2 +1,14 @@
 /* 引入字体图标 */
-@import './styles/iconfont.wxss'
+@import "./styles/iconfont.wxss" ;
+
+page{
+  --themeColor:#666;
+  /* color: #666; */
+  font-size: 28rpx;
+}
+page,view,text,swiper,swiper-item,image,navigator,input,button{
+  box-sizing: border-box;
+}
+image{
+  width: 100%;
+}
