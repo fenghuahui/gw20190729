@@ -19,7 +19,18 @@
 .floordata {
   border: 10rpx solid #fff;
 }
-.floordata .floorList {
+.floordata .floorList navigator {
   width: 33.33%;
   float: left;
+  overflow: hidden;
+}
+.floordata .floorList navigator:nth-last-child(-n + 4) {
+  height: 207.97413793rpx;
+  border-left: 5px #fff solid;
+}
+.floordata .floorList navigator:nth-last-child(-n + 2) {
+  border-top: 5px #fff solid;
+}
+.floordata .floorList navigator image {
+  height: 100%;
 }

@@ -24,7 +24,22 @@
 .floordata{
   border: 10rpx solid #fff;
   .floorList{
-   width: 33.33%; 
-   float: left;
+    navigator{
+      width: 33.33%; 
+      float: left;
+      overflow: hidden;
+      &:nth-last-child(-n + 4){
+       //  原图宽/原图高 = 改变宽/改变高
+       // 等于第一张的一半
+        height: 750rpx / 3 * 386 / 232 / 2;
+        border-left: 5px #fff solid;
+      }
+      &:nth-last-child(-n + 2){
+        border-top: 5px #fff solid;
+      }
+      image{
+        height: 100%;
+      }
+    }
   }
 }

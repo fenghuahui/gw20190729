@@ -36,14 +36,15 @@ wx:key="name"
     <image src="{{item1.floor_title.image_src}}" mode="widthFix"/>      
   </view>
   <!-- 第二层循环内容 -->
-  <view class="floorList"
-  wx:for="{{item1.product_list}}"
-  wx:for-item="item2"
-  wx:for-index="index2"
-  wx:key="name"
+  <view class="floorList "
+
   >
-    <navigator>
-      <image src="{{item2.image_src}}" mode="widthFix"/>      
+    <navigator   wx:for="{{item1.product_list}}"
+    wx:for-item="item2"
+    wx:for-index="index2"
+    wx:key="name">
+      <image src="{{item2.image_src}}" mode="{{index2===0 ?'widthFix':'scaleToFill'}}" />              
+      <!-- <image src="{{item2.image_src}}" mode="widthFix" />               -->
     </navigator>       
   </view>   
 </view>
