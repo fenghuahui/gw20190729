@@ -1,3 +1,6 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "seachInput":"../../components/seachInput/seachInput"
+  },
+  "navigationBarTitleText":"莲花坞"
 }

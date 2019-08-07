@@ -1,1 +1,46 @@
-/* pages/category/index.wxss */
+.list{
+  display: flex;
+  height: ~"calc(100vh - 90rpx)";
+  .left_nav{
+    flex: 1;
+    .nav_item{
+      text-align: center;
+      padding: 20rpx;
+      border-bottom: 1px solid #dedede;
+      background-color: #f4f4f4;
+    }
+    .avatic{
+      color: #6daf8a;
+      border-left: 4rpx solid #6daf8a;
+    }
+  }
+  .right_list{
+    flex: 3;
+    .goods_group{
+      // display: flex;
+      // flex-wrap: wrap;
+      .list_title{
+        text-align: center;
+        padding:20rpx 0;
+        height: 90rpx;
+        .delimiter{
+          padding:  20rpx;
+          color: #ccc;
+        }
+      }
+      .list_goods{
+        display: flex;
+        flex-wrap: wrap;
+        navigator{
+          text-align: center;
+          width: 33.33%;
+          padding: 0 30rpx;
+          image{
+            width: 50%;
+          }
+        }    
+      }
+    }
+   
+  }
+}

@@ -1,5 +1,6 @@
 {
   "usingComponents": {
    "seachInput":"../../components/seachInput/seachInput"
-  }
+  },
+  "navigationBarTitleText": "姑苏云深不知处"
 }

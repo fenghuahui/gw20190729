@@ -1,6 +1,6 @@
 .seachInput{
-  background-color: var(--themeColor);
-  color:var(--themeColor);
+  background-color: #666;
+  color:#666;
   /* 45px */
   box-sizing: border-box;
   height: 90prx;

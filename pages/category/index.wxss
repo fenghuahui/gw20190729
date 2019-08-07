@@ -1,0 +1,41 @@
+.list {
+  display: flex;
+  height: calc(100vh - 90rpx);
+}
+.list .left_nav {
+  flex: 1;
+}
+.list .left_nav .nav_item {
+  text-align: center;
+  padding: 20rpx;
+  border-bottom: 1px solid #dedede;
+  background-color: #f4f4f4;
+}
+.list .left_nav .avatic {
+  color: #6daf8a;
+  border-left: 4rpx solid #6daf8a;
+}
+.list .right_list {
+  flex: 3;
+}
+.list .right_list .goods_group .list_title {
+  text-align: center;
+  padding: 20rpx 0;
+  height: 90rpx;
+}
+.list .right_list .goods_group .list_title .delimiter {
+  padding: 20rpx;
+  color: #ccc;
+}
+.list .right_list .goods_group .list_goods {
+  display: flex;
+  flex-wrap: wrap;
+}
+.list .right_list .goods_group .list_goods navigator {
+  text-align: center;
+  width: 33.33%;
+  padding: 0 30rpx;
+}
+.list .right_list .goods_group .list_goods navigator image {
+  width: 50%;
+}

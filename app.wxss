@@ -2,7 +2,7 @@
 @import "./styles/iconfont.wxss" ;
 
 page{
-  --themeColor:#666;
+  --themeColor:#6daf8a;
   /* color: #666; */
   font-size: 28rpx;
 }
